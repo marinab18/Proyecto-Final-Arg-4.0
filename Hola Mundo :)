@@ -1,0 +1,26 @@
+package holamundo;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author usuario
+ */
+public class HOLAMUNDO {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //se crea una variable scanner que se utiliza para leer datos del usuario
+    Scanner leer = new Scanner(System.in);
+    //se crea una variable cadena (string) que se utiliza para leer datos del usuario 
+    String nombre;
+    //muestra un mensaje por pantalla
+    System.out.println("ingresa tu nombre "); //ingrese un nombre
+    //leemos el nombre de la persona en la vaiable nombre
+    nombre = leer.next();
+    //mostramos por consola un saludo personalizado 
+    System.out.println("HOLA MUNDO! SOY " + nombre + " Y ESTOY PROGRAMANDO EN JAVA");
+    }
+}
