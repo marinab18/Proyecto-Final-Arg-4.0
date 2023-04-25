@@ -35,14 +35,4 @@ public class Libro extends Libreria {
 		return super.precioCompra + (super.precioCompra*8/100);
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
