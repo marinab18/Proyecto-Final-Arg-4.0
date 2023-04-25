@@ -42,5 +42,25 @@ public abstract class Libreria {
 		this.codigo = codigo;
 	}
 
+	public LocalDate getFechaDePublicacion() {
+		return fechaDePublicacion;
+	}
+
+
+	public void setFechaDePublicacion(LocalDate fechaDePublicacion) {
+		this.fechaDePublicacion = fechaDePublicacion;
+	}
+
+
+	public boolean isFisico() {
+		return fisico;
+	}
+
+
+	public void setFisico(boolean fisico) {
+		this.fisico = fisico;
+	}
+
+
 	public abstract double getPrecioDeVenta();
 }
