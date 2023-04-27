@@ -10,7 +10,7 @@ public abstract class Libreria {
 	protected boolean fisico;
 
 	
-	
+	//Se declara el constructor
 	public Libreria(String titulo,int codigo,double precioCompra,LocalDate fechaDePublicacion,boolean fisico) {
 		this.titulo = titulo;
 		this.codigo = codigo;
@@ -19,6 +19,7 @@ public abstract class Libreria {
 		this.fisico=fisico;
 	} 
 	
+	//Se declaran los Getters y Setters
 	
 	public String getTitulo() {
 		return titulo;

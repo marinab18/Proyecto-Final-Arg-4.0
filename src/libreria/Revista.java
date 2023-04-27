@@ -7,12 +7,14 @@ public class Revista extends Libreria{
 
 	protected String editor;
 	
-	
+	//Se declara el constructor
 	public Revista(String titulo, String editor, int codigo,int precioCompra,LocalDate fechaDePublicacion, boolean fisico) {
 		super(titulo,codigo,precioCompra, fechaDePublicacion, fisico);
 		this.editor = editor;				
 	}
-		
+	
+	//Se declaran los Getters y Setters
+
 	public String getEditor() {
 		return this.editor;
 	}

@@ -6,7 +6,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		LocalDate fecha = LocalDate.now();
-		
+		//Se crean los objetos de tipo Libro y tipo Revista
 		Libro l1= new Libro("Caperusita Roja","autor anonimo","Quiero",123,310,fecha,false);
 		Libro l2= new Libro("Rebelion en la granja","El Rusito","pasear",123,255,fecha,false);
 		Libro l3= new Libro("Lord of The Ring","Tolkien","por",123,220,fecha,false);
@@ -41,4 +41,3 @@ public class Principal {
 		c.mostrarTotal();
 	}
 }
-

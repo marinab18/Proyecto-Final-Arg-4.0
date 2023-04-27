@@ -7,14 +7,16 @@ public class Libro extends Libreria {
 	protected String autorPrincipal;
 	protected String editorial;
 	
-	
+	//Se declara el constructor
 	public Libro(String titulo, String autorPrincipal, String editorial, int codigo,double precioCompra,LocalDate fechaDePublicacion,boolean fisico) {
 		super(titulo,codigo,precioCompra,fechaDePublicacion,fisico);
 		this.autorPrincipal = autorPrincipal;
 		this.editorial = editorial;
 	}
-
-
+	
+	
+	//Se declaran los Getters y Setters
+	
 	public String getAutorPrincipal() {
 		return autorPrincipal;
 	}

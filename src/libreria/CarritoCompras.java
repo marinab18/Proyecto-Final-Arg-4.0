@@ -3,11 +3,11 @@ package libreria;
 import java.util.ArrayList;
 
 class CarritoCompra {
+	
 	double total;
-	
-	
 	private ArrayList<Libreria>items;
-
+	
+	//se crea el arreglo de tipo Libreria
 	public CarritoCompra() {
 		this.items = new ArrayList<Libreria>();
 	}
